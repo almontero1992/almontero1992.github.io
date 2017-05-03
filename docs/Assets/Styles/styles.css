@@ -1,0 +1,186 @@
+/*
+	Basic Style Sheet
+	
+	Author: Alvaro Montero
+	Date: 4/10/17
+	Filename: main.css
+	Supporting Files:	
+*/
+
+/*reset  styles */
+a, article, body, div, figcaption, figure, footer, header, h1, 
+h2, h3, img, li, nav, p, section, ul, .wrapper, catfacttitle{
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header,
+section, nav {
+	display: block;
+}
+
+/* Set the default page element styles */
+body {
+	margin: 0px auto;
+	width: 100%;	
+}
+
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+	
+}
+
+header img {
+	width: 100%;
+}
+
+body
+    {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+#fact {
+	display: none;
+}
+
+/* logo in nav bar */
+#logo {
+	float: left;
+	height: 40px;
+}
+
+/* navigation bar */
+.navigation {
+	width: 100%;
+	height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #aa2edb;
+}
+
+#aboutus {
+	float: right;
+	background-color: ##aa2edb
+}
+
+/* background */
+body {
+    background-image: url("Images/background.jpg");
+    background-color: #cccccc;
+}
+
+/* footer */
+footer {
+	color: white;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+
+
+/* text font color */
+h1, p {
+	color: white;
+}
+
+#catfacttitle {
+	font-size: 30px;
+	text-align: center;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+#factButton {
+	position: absolute;
+}
+
+#fact {
+	border: 5px solid #aa2edb;
+	padding: 150px;
+	font-size: 20px;
+	background-color: ivory;
+	margin: 0px 400px;
+	text-align: center;
+	color: #aa2edb;
+	font-weight: bold;
+	
+}
+
+#nyancat {
+	height: 40px;
+}
+
+.container {
+	padding: 10px 10px;
+	width: 45%;
+	border: 1px solid #aa2edb;
+	background-color: ivory;	
+	margin-top: 75px;
+	margin-left: 100px;
+	float: left;
+	margin-right: 100px;
+}
+
+.container p {
+	color: #aa2edb;
+	font-size: 20px;
+	text-align: center;
+}
+
+.container h1 {
+	color: #aa2edb;
+	font-size: 30px;
+	text-align: left;	
+}
+#tag {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.catpic img {
+	width: 40%;
+	float: left;
+	height: 450px;
+	margin-top: 75px;
+}
+
