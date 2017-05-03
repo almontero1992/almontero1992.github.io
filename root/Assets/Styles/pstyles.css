@@ -1,0 +1,70 @@
+/*
+	Pricing Style Sheet
+	
+	Author: Alvaro Montero
+	Date: 4/10/17
+	Filename: main.css
+	Supporting Files:	
+*/
+
+
+.columns {
+    float: left;
+    width: 48%;
+    padding: 0px;
+	border: 1px solid white;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+}
+
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+	height: 80px;
+	line-height: 4;
+}
+
+.price li {
+    border-bottom: 1px solid #aa2edb;
+    padding: 20px;
+    text-align: center;
+	width: 100%;
+	color: white;
+}
+
+
+.columns .purple {
+    background-color: #aa2edb;
+    font-size: 20px;
+	color: white;
+	height: 40px;
+	text-align: center;
+}
+
+.columns .purple th {
+	line-height:4;
+}
+
+.columns tr td {
+	border-bottom: 1px solid #aa2edb;
+    padding: 20px;
+    text-align: center;
+	width: 100%;
+	color: white;
+	background-color: #333;
+}
+
+#basic {
+	margin: 25px 25px 0px 25px;
+}
+
+#deluxe {
+	margin-top: 25px;
+}

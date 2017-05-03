@@ -1,0 +1,57 @@
+/*
+	Contact Style Sheet
+	
+	Author: Alvaro Montero
+	Date: 4/10/17
+	Filename: main.css
+	Supporting Files:	
+*/
+
+fieldset #questions {
+	width: 500px;
+	margin: auto;
+	height: 100px;
+}
+
+.container {
+	width: 75%;
+	margin: 100px 200px 0px 225px;
+	background-color: #333;
+	color: white;
+}
+
+form { 
+	margin: auto;
+	width: 80%;
+}
+
+#contactField {
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+#otherField {
+	margin: 10px;
+	padding: 10px;
+	
+}
+
+#contactField label {
+	padding: 10px;
+}
+
+#lineOne {
+	padding-bottom: 20px;
+	border: none;
+}
+
+#lineTwo {
+	padding-bottom: 20px;
+	border: none;
+}
+
+#lineThree {
+	padding-bottom: 20px;
+	border: none;
+}
