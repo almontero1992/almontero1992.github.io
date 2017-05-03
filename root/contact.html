@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+	<!--
+		Final Project Web Publishing
+		Author: Alvaro Montero
+		Date: 4/10/17
+		Filename: index.html
+		Supporting Files: 
+	-->
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<link rel="icon" href="Assets/Images/favicon.png">
+	<link rel="stylesheet" href="Assets/Styles/styles.css" />	
+	<link rel="stylesheet" href="Assets/Styles/cstyles.css" />
+</head>
+
+<body>
+	<header>
+		<!--
+		<img src="Assets/Images/header.png" alt="Cat Facts">
+		-->
+	</header>
+	
+	<nav class="navigation">
+			
+		<ul>
+			<img id="logo" src="Assets/Images/logo.png" alt="logo">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="fact.html">Random Fact</a></li>
+			<li><a href="pricing.html">Pricing</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li id="aboutus"><a href="about.html">About</a></li>			
+		</ul>
+	</nav>
+	
+	<section id="main">
+		<div class="container">
+			<h1>Contact Us</h1>
+			<form name="contactForm" id="contactForm" action="info.php"	method="post">
+			
+				<fieldset id="contactField">
+					<legend>Customer Information</legend>
+					<fieldset id="lineOne">
+					<label for="fName">First Name</label>
+					<input type="text" id="fName" name="fName" required="required"/>
+					
+					<label for="lName">Last Name</label>
+					<input type="text" id="lName" name="lName" required="required"/>
+		
+					<label for="address">Address</label>
+					<input type="text" id="address" name="address" required="required"/>
+					</fieldset>
+					<fieldset id="lineTwo">
+					<label for="city">City</label>
+					<input type="text" id="city" name="city" required="required"/>
+					
+					<label for="state">State</label>
+					<input type="text" id="state" name="state" required="required"
+							value="Texas"/>
+					
+					<label for="zip">Postal code</label>
+					<input type="text" id="zip" name="zip" placeholder="nnnnn (-nnnn"
+							pattern="^\d{5}(\-\d{4})?$"/>
+					</fieldset>
+					<fieldset id="lineThree">
+					<label for="phone">Phone</label>
+					<input type="tel" id="phone" name="phone" placeholder="(nnn) nnn-nnnn"
+							required="required"
+							pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+							
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" />
+					</fieldset>
+				</fieldset>
+				<br>
+				<fieldset id="otherField">
+					<legend>Other Information</legend>
+					
+					<label for="pName">Pet Name(s)</label>
+					<input type="text" id="pName" name="pName" required="required"/>					
+					<br><br>
+					<label for="packagetype">Package Type</label>
+					<br><br>
+					<select id="packagetype" name="packagetype">
+						<option value="Basic">Basic $19.99/Day</option>
+						<option value="Deliuxe">Deluxe $29.99/Day</option>
+					</select>
+					<br><br>
+					<label for="questions">Questions or Concerns?</label>
+					<br>
+					<textarea id="questions" name="questions" form="contactForm" 
+							placeholder="Additional questions or concerns"></textarea>
+					<br><br>
+					<label for="newsletter">Please send me a Monthly Newsletter.</label>
+					<input type="checkbox" id="newsletter" name="newsletter"/>
+					<br><br>
+
+				
+				<input type="submit" value="Submit Information"/>
+				<input type="reset" value="Cancel" />				
+			</form>
+		</div>
+	</section>
+	
+	<footer>		
+		Copyright &copy; 2017 Alvaro Montero		
+	</footer>
+		
+</body>
